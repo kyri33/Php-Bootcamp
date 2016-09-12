@@ -1,0 +1,94 @@
+#topbox {
+	align: center;
+	position: relative;
+	width: 70%;
+	margin-left: auto;
+	margin-top: 15px;
+	margin-right: auto;
+	height: 10%;
+}
+
+.roundbox {
+	background-color: #909090;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #000000
+}
+
+.day {
+	height: 70%;
+	position: relative;
+	top: 15%;
+	bottom: 15%;
+	left: 15px;
+}
+
+.reload {
+	position: absolute;
+	height: 17%;
+	top: 10px;
+	right: 5px;
+}
+
+.ex {
+	position: absolute;
+	height: 17%;
+	bottom: 10px;
+	right: 5px;
+}
+
+.magnify {
+	position: absolute;
+	height: 100%;
+	right: 15px;
+	bottom: -15px;
+}
+
+.insidebox {
+	margin-top: 15px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent;
+	width: 70%;
+	height: 80%;
+}
+
+#rightbox {
+	position: absolute;
+	width: 15%;
+	right: 2%;
+	top: 0;
+	height: 75%;
+}
+
+#sidebox {
+	position: relative;
+	width: 15%;
+	margin-left: 2%;
+	margin-right: 2%;
+	height: 75%;
+}
+
+#centerbox {
+	position: absolute;
+	width: 62%;
+	left: 19%;
+	align: center;
+	top: 0;
+	height: 100%;
+}
+
+.brick {
+	position: relative;
+	float: left;
+	margin: 0px;
+	width: 25%;
+}
+
+.sideimage {
+	position: relative;
+	width: 50%;
+	left: 25%;
+	right: 25%;
+	margin-top: 5%
+}
