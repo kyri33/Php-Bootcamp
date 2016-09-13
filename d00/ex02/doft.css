@@ -38,6 +38,13 @@ b {
 	font-style: bold;
 }
 
+#leftimage {
+	border-radius: 8px;
+	border-style: solid;
+	border-color: red;
+	border-width: 5px;
+}
+
 .day {
 	height: 70%;
 	position: relative;
