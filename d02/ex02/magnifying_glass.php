@@ -7,7 +7,7 @@ if (isset($argv[1]))
 	{
 		while ($line = fgets($fd))
 		{
-			if (preg_match("/<a/", $line))
+			if (preg_match("/<a/", strtolower($line)))
 			{
 				if ($posTitle = strpos(strtolower($line), "title="))
 				{

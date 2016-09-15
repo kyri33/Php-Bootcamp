@@ -3,7 +3,7 @@
 
 function ft_split($str)
 {
-	$arr = explode(" ", $str);
+	$arr = preg_split("/[\s\t]/", $str);
 	$ret = array();
 	$i = 0;
 	$j = 0;
