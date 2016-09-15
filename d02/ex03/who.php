@@ -22,7 +22,6 @@
 		return $arr;
 	}
 
-	//$ut = file_get_contents("/var/run/utmpx");
 	$fd = fopen("/var/run/utmpx", "r");
 	$i = 0;
 	while ($ut = fread($fd, 628))

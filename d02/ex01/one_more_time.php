@@ -77,7 +77,7 @@ function check_format($str)
 
 if (isset($argv[1]))
 {
-	date_default_timezone_set('Africa/Johannesburg');
+	date_default_timezone_set('Europe/Paris');
 	if (!check_format($argv[1]))
 		echo "Wrong Format";
 	echo "\n";
